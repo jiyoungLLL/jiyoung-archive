@@ -22,3 +22,29 @@ body {
   background: #bbf7d0;
   color: #052e16;
 }
+
+.archive-surface {
+  background:
+    linear-gradient(135deg, rgba(236, 253, 245, 0.72), transparent 34%),
+    linear-gradient(225deg, rgba(254, 243, 199, 0.5), transparent 30%),
+    linear-gradient(180deg, #fafaf9 0%, #f4f4f5 100%);
+}
+
+.paper-grid {
+  background-image:
+    linear-gradient(rgba(63, 63, 70, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(63, 63, 70, 0.045) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.soft-paper {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 251, 235, 0.68)),
+    repeating-linear-gradient(
+      0deg,
+      rgba(24, 24, 27, 0.025) 0,
+      rgba(24, 24, 27, 0.025) 1px,
+      transparent 1px,
+      transparent 18px
+    );
+}
